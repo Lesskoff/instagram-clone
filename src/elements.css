@@ -13,4 +13,5 @@
   flex-direction: column;
   justify-content: center;
   background-color: #fff;
+  max-width: 400px;
 }
