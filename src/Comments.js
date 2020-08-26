@@ -6,10 +6,10 @@ function Comments({ comments }) {
 
   return (
     <div className="comments">
-      {comments.map(({ username, text }) => (
-        <h4 className="comments__text">
-          <strong>{username}</strong>
-          {text}
+      {comments.map(({ id, data }) => (
+        <h4 key={id} className="comments__text">
+          <strong>{data.username}</strong>
+          {data.text}
         </h4>
       ))}
     </div>

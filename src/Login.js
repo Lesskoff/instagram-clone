@@ -68,28 +68,19 @@ export default function Login({ user, setUser }) {
         </>
       ) : null}
 
-      <Modal
-        className="modal"
-        // closeAfterTransition
-        // BackdropComponent={Backdrop}
-        // BackdropProps={{
-        //   timeout: 500,
-        // }}
-        open={open}
-        onClose={handleClose}
-      >
-        {/* <Fade in={open}> */}
-        <LoginBody
-          username={username}
-          setUsername={setUsername}
-          email={email}
-          setEmail={setEmail}
-          password={password}
-          setPassword={setPassword}
-          openSignIn={openSignIn}
-          setOpen={setOpen}
-        />
-        {/* </Fade> */}
+      <Modal className="modal" open={open} onClose={handleClose}>
+        <div>
+          <LoginBody
+            username={username}
+            setUsername={setUsername}
+            email={email}
+            setEmail={setEmail}
+            password={password}
+            setPassword={setPassword}
+            openSignIn={openSignIn}
+            setOpen={setOpen}
+          />
+        </div>
       </Modal>
     </div>
   );
