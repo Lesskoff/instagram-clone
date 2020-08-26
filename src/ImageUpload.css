@@ -1,0 +1,39 @@
+.imageUpload .imageUpload__modalButton {
+  position: fixed;
+  bottom: 0;
+  border-radius: 0;
+  z-index: 1;
+}
+
+.imageUpload__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageUpload > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.imageUpload__input,
+.imageUpload__progress,
+.imageUpload label,
+.imageUpload button {
+  width: 100%;
+}
+
+.imageUpload .MuiAlert-root {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.imageUpload__text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

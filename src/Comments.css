@@ -1,0 +1,8 @@
+.comments__text {
+  padding: 0 20px;
+  font-weight: normal;
+}
+
+.comments__text strong {
+  margin-right: 10px;
+}
