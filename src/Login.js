@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import LoginBody from "./LoginBody";
 import { auth } from "./firebase";
-import { Modal, Button, Backdrop, Fade } from "@material-ui/core";
+import { Modal, Button } from "@material-ui/core";
 
 export default function Login({ user, setUser }) {
   const [open, setOpen] = useState(false);

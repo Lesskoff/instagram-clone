@@ -1,14 +1,7 @@
 import React, { useState } from "react";
 import firebase from "firebase";
 import { db, storage } from "./firebase";
-import {
-  Modal,
-  Fade,
-  Backdrop,
-  Button,
-  TextField,
-  LinearProgress,
-} from "@material-ui/core";
+import { Modal, Button, TextField, LinearProgress } from "@material-ui/core";
 import { Alert } from "@material-ui/lab";
 import "./ImageUpload.css";
 

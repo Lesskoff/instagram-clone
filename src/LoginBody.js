@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "./Logo";
 import { auth } from "./firebase";
-import { makeStyles } from "@material-ui/core/styles";
 import { TextField, Button } from "@material-ui/core";
 
 function LoginBody({
